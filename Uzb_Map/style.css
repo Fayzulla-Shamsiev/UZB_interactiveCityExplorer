@@ -1,0 +1,71 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f8ff; /* Light blue reminiscent of traditional Uzbek tiles */
+}
+
+h1 {
+    margin: 20px 0;
+    color: #004080; /* Dark blue for a bold header */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+#map {
+    height: 500px;
+    width: 80%;
+    border: 2px solid #004080; /* Matching border color */
+    border-radius: 10px;
+    margin-bottom: 20px; /* Space below the map */
+}
+
+#reset-button {
+    padding: 13px 30px; /* Increased padding */
+    font-size: 18px; /* Larger font size */
+    background-color: #004080;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: -10px; /* Move button up closer to map */
+}
+
+#reset-button:hover {
+    background-color: #003060;
+}
+
+#info {
+    width: 80%;
+    background-color: #fff; /* White background for readability */
+    padding: 20px;
+    border: 2px solid #004080; /* Dark blue border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333; /* Dark grey text color */
+}
+
+/* Center images and captions */
+#info img {
+    display: block;
+    margin: 10px auto; /* Center the image */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+figcaption {
+    text-align: center; /* Center the caption text */
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+}
